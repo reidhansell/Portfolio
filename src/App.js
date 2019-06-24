@@ -44,9 +44,14 @@ function App() {
       <h2 id="1">Projects</h2>
       <h4><a href="https://simplebodybuilding.herokuapp.com/" target="_blank" rel="noopener noreferrer">Simple Bodybuilding</a></h4>
       <p>My first full stack application using the MERN stack. This web app is the solution to my frustration with today's fitness apps. I used this project to teach myself the fundamentals of back-end work.</p>
+      <a href="https://github.com/reidhansell/simplebb" target="_blank" rel="noopener noreferrer">[Code]</a>
+      <br />
+      <br />
       <br />
       <h4><a href="https://reidhansell.com/" target="_blank" rel="noopener noreferrer">Portfolio</a></h4>
       <p>While currently a simple single page website, my portfolio has gone through many revisions and is the reason I decided to specialize in web development. I used this project to teach myself the fundamentals of front-end work.</p>
+      <a href="https://github.com/reidhansell/portfolio" target="_blank" rel="noopener noreferrer">[Code]</a>
+      <br />
       <br />
       <br />
       <h2 id="2">Contact</h2>
