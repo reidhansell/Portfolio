@@ -1,0 +1,81 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.App {
+  vertical-align: middle;
+  font-family: Tahoma, Geneva, sans-serif;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 10rem;
+  background: whitesmoke;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.5rem;
+  line-height: 1.6;
+}
+
+p{
+  word-spacing: 0;
+}
+
+a{
+  color: rgb(183, 198, 139) !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.media-icon{
+  font-size:3rem;
+  margin-right:3rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 1.75rem !important;
+    line-height: 2.5rem !important;
+  }
+  h2{
+    font-size: 1.5rem !important;
+  }
+  h4{
+    font-size: 1.25rem !important;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h1{
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+  }
+  h2{
+    font-size: 2rem !important;
+  }
+  h4{
+    font-size: 1.5rem !important;
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  h1{
+    font-size: 3rem !important;
+    line-height: 4rem !important;
+  }
+  h2{
+    font-size: 3rem !important;
+  }
+  h4{
+    font-size: 2rem !important;
+  }
+}
