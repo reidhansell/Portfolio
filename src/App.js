@@ -48,7 +48,7 @@ function App() {
       <br />
       <br />
       <br />
-      <h4><a href="#" target="_blank" rel="noopener noreferrer">Blog</a></h4>
+      <h4><a href="#" target="_blank" rel="noopener noreferrer">Fitness/Trading Blog</a></h4>
       <p>[WIP]</p>
       <a href="#" target="_blank" rel="noopener noreferrer">[Code]</a>
       <br />
