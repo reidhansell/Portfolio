@@ -1,4 +1,4 @@
-#Portfolio
+# Portfolio
 This project currently has no reason to use React other than the convenience with Netlify. To run locally, clone into your dir and run npm install followed by npm start.
 
 ---
