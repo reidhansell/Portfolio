@@ -48,6 +48,12 @@ function App() {
       <br />
       <br />
       <br />
+      <h4><a href="#" target="_blank" rel="noopener noreferrer">Blog</a></h4>
+      <p>[WIP]</p>
+      <a href="#" target="_blank" rel="noopener noreferrer">[Code]</a>
+      <br />
+      <br />
+      <br />
       <h4><a href="https://reidhansell.com/" target="_blank" rel="noopener noreferrer">Portfolio</a></h4>
       <p>While currently a simple single page website, my portfolio has gone through many revisions and is the reason I decided to specialize in web development. I used this project to teach myself the fundamentals of front-end work.</p>
       <a href="https://github.com/reidhansell/portfolio" target="_blank" rel="noopener noreferrer">[Code]</a>
