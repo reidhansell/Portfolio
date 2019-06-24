@@ -19,7 +19,7 @@ import { FaTwitter } from 'react-icons/fa'
 function App() {
   return (
     <div className="App">
-      <Navbar color="none" light expand="md">
+      <Navbar color="none" expand="md">
           <NavbarBrand href="/"><img id="slide" src={logo} alt={logo} style={{maxHeight: '5rem'}}/></NavbarBrand>
             <Nav className="ml-auto" navbar>
               <NavItem>

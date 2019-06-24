@@ -27,11 +27,6 @@ html{
   color: black;
 }
 
-.App .media-icon{
-  font-size:3rem;
-  margin-right:3rem;
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .App h1{
@@ -43,6 +38,10 @@ html{
   }
   .App h4{
     font-size: 1.25rem;
+  }
+  .App .media-icon{
+    font-size:1.5rem;
+    margin-right:1.5rem;
   }
 } 
 
@@ -58,6 +57,10 @@ html{
   .App h4{
     font-size: 1.5rem;
   }
+  .App .media-icon{
+    font-size:2.25rem;
+    margin-right:2.25rem;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -71,6 +74,10 @@ html{
   }
   .App h4{
     font-size: 2rem;
+  }
+  .App .media-icon{
+    font-size:3rem;
+    margin-right:3rem;
   }
 }
 
