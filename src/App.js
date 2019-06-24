@@ -48,9 +48,9 @@ function App() {
       <br />
       <br />
       <br />
-      <h4><a href="#">Fitness/Trading Blog</a></h4>
+      <h4><a>Fitness/Trading Blog</a></h4>
       <p>[WIP]</p>
-      <a href="#">[Code]</a>
+      <a>[Code]</a>
       <br />
       <br />
       <br />
