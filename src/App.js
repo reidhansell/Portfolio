@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <Navbar color="none" light expand="md">
-          <NavbarBrand href="/"><img src={logo} alt={logo} style={{maxHeight: '5rem'}}/></NavbarBrand>
+          <NavbarBrand href="/"><img id="slide" src={logo} alt={logo} style={{maxHeight: '5rem'}}/></NavbarBrand>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink href="#1"style={{marginRight: '1rem'}}><b>Projects</b></NavLink>

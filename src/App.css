@@ -60,12 +60,6 @@ a:hover{
   }
 } 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {} 
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   h1{
@@ -79,3 +73,30 @@ a:hover{
     font-size: 2rem !important;
   }
 }
+
+#slide {
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+   -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+       animation: fadein 1s;
+  
+}
+
+@keyframes fadein {
+  from { opacity: 0; margin-left: -5rem; }
+  to   { opacity: 1; margin-right: 0; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; margin-left: -5rem; }
+  to   { opacity: 1; margin-right: 0; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; margin-left: -5rem; }
+  to   { opacity: 1; margin-right: 0; }
+}
+
