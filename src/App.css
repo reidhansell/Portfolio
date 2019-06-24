@@ -14,63 +14,63 @@ html{
   line-height: 1.6;
 }
 
-p{
+.App p{
   word-spacing: 0;
 }
 
-a{
-  color: rgb(183, 198, 139) !important;
+.App a{
+  color: rgb(183, 198, 139);
 }
 
-a:hover{
-  text-decoration: none !important;
-  color: black !important;
+.App a:hover{
+  text-decoration: none;
+  color: black;
 }
 
-.media-icon{
+.App .media-icon{
   font-size:3rem;
   margin-right:3rem;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  h1{
-    font-size: 1.75rem !important;
-    line-height: 2.5rem !important;
+  .App h1{
+    font-size: 1.75rem;
+    line-height: 2.5rem;
   }
-  h2{
-    font-size: 1.5rem !important;
+  .App h2{
+    font-size: 1.5rem;
   }
-  h4{
-    font-size: 1.25rem !important;
+  .App h4{
+    font-size: 1.25rem;
   }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  h1{
-    font-size: 2rem !important;
-    line-height: 3rem !important;
+  .App h1{
+    font-size: 2rem;
+    line-height: 3rem;
   }
-  h2{
-    font-size: 2rem !important;
+  .App h2{
+    font-size: 2rem;
   }
-  h4{
-    font-size: 1.5rem !important;
+  .App h4{
+    font-size: 1.5rem;
   }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  h1{
-    font-size: 3rem !important;
-    line-height: 4rem !important;
+  .App h1{
+    font-size: 3rem;
+    line-height: 4rem;
   }
-  h2{
-    font-size: 3rem !important;
+  .App h2{
+    font-size: 3rem;
   }
-  h4{
-    font-size: 2rem !important;
+  .App h4{
+    font-size: 2rem;
   }
 }
 
