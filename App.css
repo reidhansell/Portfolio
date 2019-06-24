@@ -96,14 +96,14 @@ html{
 }
 
 @keyframes fadein {
-  from { opacity: 0; margin-left: -5rem; }
-  to   { opacity: 1; margin-right: 0; }
+  from { opacity: 0; margin-left: -3rem; }
+  to   { opacity: 1; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-  from { opacity: 0; margin-left: -5rem; }
-  to   { opacity: 1; margin-right: 0; }
+  from { opacity: 0; margin-left: -3rem; }
+  to   { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
