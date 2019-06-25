@@ -20,7 +20,7 @@ html{
 }
 
 .App a{
-  color: rgb(251, 255, 0);
+  color: black;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
