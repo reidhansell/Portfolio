@@ -1,65 +1,181 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-        <link rel="stylesheet" href="index.css" />
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <script src="https://kit.fontawesome.com/3e36619a08.js"></script>
-        <script src="App.js"></script>
-    </head>
-    <body>
-        <div class="App">
-            <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="https://www.reidhansell.com"><img id="slide" src="logo.png" style="max-height: 4.5rem"/></a>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://drive.google.com/open?id=1Xm8y2cFNLHXte-5p9kOD-F6C1oQtDGCZ" style="margin-right: 1rem" target="_blank" rel="noopener noreferrer"><b>Resume</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#1" style="margin-right: 1rem"><b>Projects</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  href="#2"><b>Contact</b></a>
-                    </li>
-                </ul>
-            </nav>
-            <h1 style="width: 50rem; max-width: 85%; margin-top: 5rem;">I'm Reid Hansell, a <a href="https://github.com/reidhansell" target="_blank" rel="noopener noreferrer">software developer</a>, bodybuilder, and <a href="https://modest-leavitt-c75964.netlify.com/" target="_blank" rel="noopener noreferrer">blogger</a> in the Denver area.</h1>
-            <br />
-            <br />
-            <h2>Skills</h2>
-            <div class="row">
-            <div class="col border-top border-bottom" style="margin-bottom: 2rem; margin-right: 5rem"><h4>Front-End</h4><br />React<br />BootStrap<br />JavaScript<br />CSS<br />HTML</div>
-            <div class="col border-top border-bottom" style="margin-bottom: 2rem; margin-right: 5rem"><h4>Back-End</h4><br />Node (Express)<br />MongoDB<br /></div>
-            <div class="col border-top border-bottom" style="margin-bottom: 2rem; margin-right: 5rem"><h4>Extras</h4><br />Git/GitHub<br />Web Hosting<br />Gimp/AdobeXD<br />Redux [in progress]</div>
-            </div>
-            <br />
-            <br />
-            <h2 id="1">Projects</h2>
-            <h4><a href="https://simplebodybuilding.herokuapp.com/" target="_blank" rel="noopener noreferrer">Simple Bodybuilding</a></h4>
-            <p>My first full stack application using the MERN stack. This web app is the solution to my frustration with today's fitness apps. I used this project to teach myself the fundamentals of back-end work.</p>
-            <a href="https://github.com/reidhansell/simplebb" target="_blank" rel="noopener noreferrer">[Code]</a>
-            <br />
-            <br />
-            <br />
-            <h4><a href="https://modest-leavitt-c75964.netlify.com/">Fitness/Trading/Software Blog</a></h4>
-            <p>A blog I made to write about my passions and reference information. Made with react. Posts are stored locally.</p>
-            <a href="https://github.com/reidhansell/blog" target="_blank" rel="noopener noreferrer">[Code]</a>
-            <br />
-            <br />
-            <br />
-            <h4><a href="https://reidhansell.com/" target="_blank" rel="noopener noreferrer">Portfolio</a></h4>
-            <p>While currently a simple single page website, my portfolio has gone through many revisions and is the reason I decided to specialize in web development. I used this project to teach myself the fundamentals of front-end work.</p>
-            <a href="https://github.com/reidhansell/portfolio" target="_blank" rel="noopener noreferrer">[Code]</a>
-            <br />
-            <br />
-            <br />
-            <h2 id="2">Contact</h2>
-            <h4>ReidHansell@Gmail.com</h4>
-            <a class="media-icon" href="https://github.com/reidhansell" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square" ></i></a>
-            <a class="media-icon" href="https://www.linkedin.com/in/reid-hansell-62123b188" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-            <a class="media-icon" href="https://www.facebook.com/reid.hansell" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
-            <a class="media-icon" href="https://twitter.com/HansellReid" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square"></i></a>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="icon.png" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://kit.fontawesome.com/3e36619a08.js"></script>
+    <script src="App.js"></script>
+  </head>
+  <body>
+    <div class="App">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="https://www.reidhansell.com"
+          ><img id="slide" src="logo.png" style="max-height: 4.5rem"
+        /></a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://drive.google.com/open?id=1Xm8y2cFNLHXte-5p9kOD-F6C1oQtDGCZ"
+              style="margin-right: 1rem"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><b>Resume</b></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#1" style="margin-right: 1rem"
+              ><b>Projects</b></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#2"><b>Contact</b></a>
+          </li>
+        </ul>
+      </nav>
+      <h1 style="width: 50rem; max-width: 85%; margin-top: 5rem;">
+        I'm Reid Hansell, a
+        <a
+          href="https://github.com/reidhansell"
+          target="_blank"
+          rel="noopener noreferrer"
+          >software developer</a
+        >, bodybuilder, and
+        <a
+          href="https://modest-leavitt-c75964.netlify.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >blogger</a
+        >
+        in the Denver area.
+      </h1>
+      <br />
+      <br />
+      <h2>Skills</h2>
+      <div class="row">
+        <div
+          class="col border-top border-bottom"
+          style="margin-bottom: 2rem; margin-right: 5rem"
+        >
+          <h4>Front-End</h4>
+          <br />React<br />BootStrap<br />JavaScript<br />CSS<br />HTML
         </div>
-    </body>
+        <div
+          class="col border-top border-bottom"
+          style="margin-bottom: 2rem; margin-right: 5rem"
+        >
+          <h4>Back-End</h4>
+          <br />Node (Express)<br />MongoDB<br />JavaScript
+        </div>
+        <div
+          class="col border-top border-bottom"
+          style="margin-bottom: 2rem; margin-right: 5rem"
+        >
+          <h4>Extras</h4>
+          <br />Git/GitHub<br />Web Hosting<br />Gimp/AdobeXD<br />Redux
+        </div>
+      </div>
+      <br />
+      <br />
+      <h2 id="1">Projects</h2>
+      <h4>
+        <a
+          href="https://simplebodybuilding.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Simple Bodybuilding</a
+        >
+      </h4>
+      <p>
+        My first full-stack web application built with the MERN stack. I am passionate about fitness and was unsatisfied with my options when it came to fitness trackers. This will cater to anyone who trains in a bodybuilder style including myself.
+      </p>
+      <a
+        href="https://github.com/reidhansell/simplebb"
+        target="_blank"
+        rel="noopener noreferrer"
+        >[Code]</a
+      >
+      <br />
+      <br />
+      <br />
+      <h4>
+        <a href="https://modest-leavitt-c75964.netlify.com/"
+          >Fitness/Trading/Software Blog</a
+        >
+      </h4>
+      <p>
+        A front-end blog I made in order to reference ideas and write about my passions. Using React was overkill but I wanted something simple and I wanted it ASAP. Create-react-app was the perfect solution.
+      </p>
+      <a
+        href="https://github.com/reidhansell/blog"
+        target="_blank"
+        rel="noopener noreferrer"
+        >[Code]</a
+      >
+      <br />
+      <br />
+      <br />
+      <h4>
+        <a
+          href="https://reidhansell.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Portfolio</a
+        >
+      </h4>
+      <p>
+        You're on it right now! This front-end website has been through many revisions all of which can be seen on my GitHub. However, given it is a display site, I ended up with just an html file, a css file, and a logo. Sometimes less is better.
+      </p>
+      <a
+        href="https://github.com/reidhansell/portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+        >[Code]</a
+      >
+      <br />
+      <br />
+      <br />
+      <h2 id="2">Contact</h2>
+      <h4>ReidHansell@Gmail.com</h4>
+      <a
+        class="media-icon"
+        href="https://github.com/reidhansell"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fab fa-github-square"></i
+      ></a>
+      <a
+        class="media-icon"
+        href="https://www.linkedin.com/in/reid-hansell-62123b188"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a
+        class="media-icon"
+        href="https://www.facebook.com/reid.hansell"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fab fa-facebook-square"></i
+      ></a>
+      <a
+        class="media-icon"
+        href="https://twitter.com/HansellReid"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fab fa-twitter-square"></i
+      ></a>
+    </div>
+  </body>
 </html>
