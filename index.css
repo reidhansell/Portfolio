@@ -1,5 +1,5 @@
 /*Begin tags, classes, and IDs*/
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -13,88 +13,88 @@ html{
   letter-spacing: 0.1rem;
   word-spacing: 0.5rem;
   line-height: 1.6;
-  color: 	rgb(80,80,80);
+  color: rgb(80, 80, 80);
 }
 
-.App p{
+.App p {
   word-spacing: 0;
 }
 
-.App a{
+.App a {
   color: rgb(0, 204, 255);
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-.App a:hover{
+.App a:hover {
   text-decoration: none;
-  color: 	rgb(80,80,80);
+  color: rgb(80, 80, 80);
 }
 
 /*Begin responsive*/
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .App h1{
+  .App h1 {
     font-size: 1.75rem;
     line-height: 2.5rem;
   }
-  .App h2{
+  .App h2 {
     font-size: 1.5rem;
   }
-  .App h4{
+  .App h4 {
     font-size: 1.25rem;
   }
-  .App .media-icon{
-    font-size:1.5rem;
-    margin-right:1.5rem;
+  .App .media-icon {
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
   }
-  a.nav-link{
+  a.nav-link {
     font-size: 0.8rem;
   }
-} 
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .App h1{
+  .App h1 {
     font-size: 2rem;
     line-height: 3rem;
   }
-  .App h2{
+  .App h2 {
     font-size: 2rem;
   }
-  .App h4{
+  .App h4 {
     font-size: 1.5rem;
   }
-  .App .media-icon{
-    font-size:2.25rem;
-    margin-right:2.25rem;
+  .App .media-icon {
+    font-size: 2.25rem;
+    margin-right: 2.25rem;
   }
-  a.nav-link{
+  a.nav-link {
     font-size: 0.9rem;
   }
-} 
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .App h1{
+  .App h1 {
     font-size: 3rem;
     line-height: 4rem;
   }
-  .App h2{
+  .App h2 {
     font-size: 3rem;
   }
-  .App h4{
+  .App h4 {
     font-size: 2rem;
   }
-  .App .media-icon{
-    font-size:3rem;
-    margin-right:3rem;
+  .App .media-icon {
+    font-size: 3rem;
+    margin-right: 3rem;
   }
-  a.nav-link{
+  a.nav-link {
     font-size: 1rem;
   }
 }
@@ -104,26 +104,40 @@ html{
 #slide {
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1s; /* Firefox < 16 */
-   -ms-animation: fadein 1s; /* Internet Explorer */
-    -o-animation: fadein 1s; /* Opera < 12.1 */
-       animation: fadein 1s;
-  
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
 }
 
 @keyframes fadein {
-  from { opacity: 0; margin-left: -3rem; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+    margin-left: -3rem;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-  from { opacity: 0; margin-left: -3rem; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+    margin-left: -3rem;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-  from { opacity: 0; margin-left: -3rem; }
-  to   { opacity: 1; margin-right: 0; }
+  from {
+    opacity: 0;
+    margin-left: -3rem;
+  }
+  to {
+    opacity: 1;
+    margin-right: 0;
+  }
 }
-
