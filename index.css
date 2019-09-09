@@ -1,15 +1,16 @@
 /*Begin tags, classes, and IDs*/
 html {
   scroll-behavior: smooth;
+  min-width: 320px;
 }
 
 .App {
   vertical-align: middle;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: "Barlow", sans-serif;
   padding-left: 15%;
   padding-right: 15%;
-  padding-bottom: 10rem;
-  background: white;
+  padding-bottom: 5rem;
+  background: rgb(230, 230, 230);
   letter-spacing: 0.1rem;
   word-spacing: 0.5rem;
   line-height: 1.6;
@@ -22,7 +23,7 @@ html {
 }
 
 .App a {
-  color: rgb(0, 204, 255);
+  color: #1e8bc3;
   -o-transition: 0.5s;
   -ms-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -40,8 +41,8 @@ html {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .App {
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   .App h1 {
     font-size: 1.75rem;
@@ -52,6 +53,9 @@ html {
   }
   .App h4 {
     font-size: 1.25rem;
+  }
+  .App h5 {
+    font-size: 1.15rem;
   }
   .App .media-icon {
     font-size: 1.5rem;
@@ -74,6 +78,9 @@ html {
   .App h4 {
     font-size: 1.5rem;
   }
+  .App h5 {
+    font-size: 1.25rem;
+  }
   .App .media-icon {
     font-size: 2.25rem;
     margin-right: 2.25rem;
@@ -94,6 +101,9 @@ html {
   }
   .App h4 {
     font-size: 2rem;
+  }
+  .App h5 {
+    font-size: 1.5rem;
   }
   .App .media-icon {
     font-size: 3rem;
@@ -117,7 +127,6 @@ html {
 @keyframes fadein {
   from {
     opacity: 0;
-    margin-left: -3rem;
   }
   to {
     opacity: 1;
@@ -128,18 +137,6 @@ html {
 @-moz-keyframes fadein {
   from {
     opacity: 0;
-    margin-left: -3rem;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0;
-    margin-left: -3rem;
   }
   to {
     opacity: 1;
