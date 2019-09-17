@@ -32,12 +32,19 @@ html {
   text-decoration: none;
   color: rgb(80, 80, 80);
 }
+.raise {
+  transition: transform 0.2s; /* Animation */
+}
+.raise:hover {
+  transform: scale(
+    1.05
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 /*Begin responsive*/
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
   .App h1 {
     font-size: 1.75rem;
     line-height: 2.5rem;
@@ -58,10 +65,10 @@ html {
   a.nav-link {
     font-size: 0.8rem;
   }
-  .logo-icon{
+  .logo-icon {
     max-height: 2.5rem;
   }
-  .logo-icon-small{
+  .logo-icon-small {
     max-height: 1.75rem;
   }
 }
@@ -88,10 +95,10 @@ html {
   a.nav-link {
     font-size: 0.9rem;
   }
-  .logo-icon{
+  .logo-icon {
     max-height: 3rem;
   }
-  .logo-icon-small{
+  .logo-icon-small {
     max-height: 2rem;
   }
 }
@@ -118,10 +125,10 @@ html {
   a.nav-link {
     font-size: 1rem;
   }
-  .logo-icon{
+  .logo-icon {
     max-height: 4rem;
   }
-  .logo-icon-small{
+  .logo-icon-small {
     max-height: 3rem;
   }
 }
