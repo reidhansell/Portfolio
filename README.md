@@ -1,4 +1,2 @@
-# portfolio
-A portfolio with references to work, blogs, contact, and more.
-
-View at ReidHansell.com or clone to local and open index.html.
+# Portfolio
+My portfolio. Made with HTML/CSS
