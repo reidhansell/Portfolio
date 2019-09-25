@@ -32,13 +32,15 @@ html {
   text-decoration: none;
   color: rgb(80, 80, 80);
 }
+
 .raise {
-  transition: transform 0.2s; /* Animation */
+  transition: transform 0.2s;
+  /* Animation */
 }
+
 .raise:hover {
-  transform: scale(
-    1.05
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.05);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 /*Begin responsive*/
@@ -49,27 +51,40 @@ html {
     font-size: 1.75rem;
     line-height: 2.5rem;
   }
+
   .App h2 {
     font-size: 1.5rem;
   }
+
   .App h4 {
     font-size: 1.25rem;
   }
+
   .App h5 {
     font-size: 1.15rem;
   }
+
   .App .media-icon {
     font-size: 1.5rem;
     margin-right: 1.5rem;
   }
+
   a.nav-link {
     font-size: 0.8rem;
   }
+
   .logo-icon {
     max-height: 2.5rem;
   }
+
   .logo-icon-small {
     max-height: 1.75rem;
+  }
+
+  .container {
+    /*The following importants are Bootstrap overwrites. Consider making a new class or removing Bootstrap.*/
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 
@@ -79,25 +94,32 @@ html {
     font-size: 2rem;
     line-height: 3rem;
   }
+
   .App h2 {
     font-size: 2rem;
   }
+
   .App h4 {
     font-size: 1.5rem;
   }
+
   .App h5 {
     font-size: 1.25rem;
   }
+
   .App .media-icon {
     font-size: 2rem;
     margin-right: 2rem;
   }
+
   a.nav-link {
     font-size: 0.9rem;
   }
+
   .logo-icon {
     max-height: 3rem;
   }
+
   .logo-icon-small {
     max-height: 2rem;
   }
@@ -109,25 +131,32 @@ html {
     font-size: 3rem;
     line-height: 4rem;
   }
+
   .App h2 {
     font-size: 3rem;
   }
+
   .App h4 {
     font-size: 2rem;
   }
+
   .App h5 {
     font-size: 1.5rem;
   }
+
   .App .media-icon {
     font-size: 2.5rem;
     margin-right: 2.5rem;
   }
+
   a.nav-link {
     font-size: 1rem;
   }
+
   .logo-icon {
     max-height: 4rem;
   }
+
   .logo-icon-small {
     max-height: 3rem;
   }
@@ -136,10 +165,14 @@ html {
 /*Begin animations*/
 
 #slide {
-  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 1s; /* Firefox < 16 */
-  -ms-animation: fadein 1s; /* Internet Explorer */
-  -o-animation: fadein 1s; /* Opera < 12.1 */
+  -webkit-animation: fadein 1s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 1s;
+  /* Internet Explorer */
+  -o-animation: fadein 1s;
+  /* Opera < 12.1 */
   animation: fadein 1s;
 }
 
@@ -147,6 +180,7 @@ html {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -157,6 +191,7 @@ html {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
